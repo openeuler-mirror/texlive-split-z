@@ -2,9 +2,9 @@
 %global _texdir %{_datadir}/texlive
 %global __brp_mangle_shebangs /usr/bin/true
 
-Name:           texlive-split-y
+Name:           texlive-split-z
 Version:        %{tl_version}
-Release:        24
+Release:        25
 Epoch:          8
 Summary:        TeX formatting system
 License:        Artistic 2.0 and GPLv2 and GPLv2+ and LGPLv2+ and LPPL and MIT and Public Domain and UCD and Utopia
@@ -6663,6 +6663,9 @@ rm -f %{buildroot}%{_datadir}/texlive/tlpkg/tlpobj/xecyr.*
 %doc %{_texdir}/texmf-dist/doc/latex/xurl/
 
 %changelog
+* Tue Oct 26 2021 liyanan <liyanan32@huawei.com> - 8:2018-25
+- Modify the name field
+
 * Wed May 19 2021 maminjie <maminjie1@huawei.com> - 8:2018-24
 - split texlive
 
